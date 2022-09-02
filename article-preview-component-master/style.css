@@ -24,14 +24,11 @@ body{
     background-color: white;
     box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
     border-radius: 10px;
-    background-image: url(/article-preview-component-master/images/drawers.jpg);
-    background-size: 280px 285px;
-    background-position: left center;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
 }
 
 #container h3{
@@ -60,10 +57,19 @@ body{
     margin-top: 12px;
 }
 
-img{
+#profil_picture{
     height: 40px;
     width: 40px;
     border-radius: 50px;
+}
+
+#fond{
+    width: 285px;
+    height: 280px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    left: 0px;
 }
 
 #account{
@@ -162,8 +168,16 @@ img{
     #container{
         width: 327px;
         height: 512px;
-        background-size: 327px 200px;
-        background-position: top;
+    }
+
+    #fond{
+        width: 327px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+        position: absolute;
+        top: -32px;
     }
 
     #container h3{
