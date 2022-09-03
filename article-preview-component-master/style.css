@@ -127,29 +127,31 @@ body{
     background: #48556A;
     box-shadow: 0px 10px 10px rgba(201, 213, 225, 0.503415);
     border-radius: 10px;
-    display: none;
-    align-items: center;
     position: absolute;
-    left: 941px;
-    top: 389px;
+    right: -67px;
+    top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-#btn_share p{
+#share_p{
     font-weight: 500;
     font-size: 13px;
     line-height: 20px;
     letter-spacing: 5px;
     color: #9DAEC2;
-    margin-left: 37px;
+    margin-right: 10px;
 }
 
 #social{
-    margin-left: 21px;
+    height: 20px;
+    width: 175px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 36px;
-    width: 96px;
+    margin-left: 32px;
 }
 
 .carre{
@@ -213,15 +215,15 @@ body{
     }
 
     #share{
-        margin-left: 59px;
         z-index: 10;
-        margin-top: 30px;
+        margin-left: 56px;
+        margin-top: 32px;
     }
 
     #btn_share{
         display: flex;
-        left: 24px;
-        top: 73.7%;
+        right: 0px;
+        top: 87.5%;
         height: 64px;
         width: 327px;
         border-radius: 0px;
