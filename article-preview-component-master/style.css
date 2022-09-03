@@ -130,7 +130,7 @@ body{
     position: absolute;
     right: -67px;
     top: 130px;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -166,7 +166,7 @@ body{
 
 /* MOBILE 375PX */
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 500px){
     #container{
         width: 327px;
         height: 512px;
@@ -221,7 +221,6 @@ body{
     }
 
     #btn_share{
-        display: flex;
         right: 0px;
         top: 87.5%;
         height: 64px;
